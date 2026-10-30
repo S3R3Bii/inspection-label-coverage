@@ -1,0 +1,81 @@
+{
+  "facilities": {
+    "conflicting_identities": 0,
+    "conflicting_source_rows": 0,
+    "exact_duplicate_excess_nonconflicting": 0,
+    "source_rows": 280423,
+    "unique_nonconflicting_rows": 280423
+  },
+  "cohort_facilities": 183500,
+  "facility_exclusion_reasons_overlap": {
+    "not_current_OPR": 96294,
+    "outside_50_states_DC": 801
+  },
+  "events": {
+    "evaluations": {
+      "identity": {
+        "conflicting_identities": 149,
+        "conflicting_source_rows": 384,
+        "exact_duplicate_excess_nonconflicting": 398,
+        "repeated_first_selected_row": 409,
+        "source_rows": 1824426,
+        "unique_nonconflicting_rows": 1823644
+      },
+      "quality_counts_overlap": {
+        "included_window_events": 221912,
+        "outside_2021_2025": 1588027,
+        "outside_current_cohort": 362637
+      },
+      "all_unique_code_counts": {
+        "FFO": 21794,
+        "FOO": 647458,
+        "PCE": 373163,
+        "PFF": 637799,
+        "PFR": 157,
+        "POC": 686,
+        "POF": 5,
+        "POI": 1371,
+        "POM": 37892,
+        "POR": 99891,
+        "POV": 3428
+      },
+      "valid_date_format_counts": {
+        "MM-DD-YYYY": 1823644
+      }
+    },
+    "stack_tests": {
+      "identity": {
+        "conflicting_identities": 0,
+        "conflicting_source_rows": 0,
+        "exact_duplicate_excess_nonconflicting": 0,
+        "source_rows": 658331,
+        "unique_nonconflicting_rows": 658331
+      },
+      "quality_counts_overlap": {
+        "included_window_events": 157168,
+        "invalid_or_missing_date": 4,
+        "outside_2021_2025": 498238,
+        "outside_current_cohort": 57495
+      },
+      "all_unique_code_counts": {
+        "<BLANK>": 383,
+        "FAI": 21037,
+        "INC": 217,
+        "NA": 46556,
+        "PEN": 5910,
+        "PSS": 584228
+      },
+      "valid_date_format_counts": {
+        "MM/DD/YYYY": 658327
+      }
+    }
+  },
+  "windows": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2021-2025"
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "request": {
+    "url": "https://echo.epa.gov/files/echodownloads/ICIS-AIR_downloads.zip",
+    "start_utc": "2026-10-30T15:52:17.956260+00:00",
+    "end_utc": "2026-10-30T15:52:27.352766+00:00",
+    "http_status": 200,
+    "bytes": 69872864,
+    "sha256": "414dc41cb4a98a41d6e64bca3210b5a5e7794b0d61177424a10ff4e76c2c5e40",
+    "headers": {
+      "Last-Modified": "Sun, 25 Oct 2026 07:57:53 GMT",
+      "ETag": "\"42a2ce0-65ea59213d3d3\"",
+      "Content-Length": "69872864",
+      "Content-Type": "application/zip"
+    },
+    "pre_retrieval_protocol": "c0595a6922ddd36248bff499c5b75eb59bbedc96"
+  },
+  "tables": {
+    "facilities": {
+      "member": "ICIS-AIR_FACILITIES.csv",
+      "member_sha256": "b6191f4e611bd6dcf4c7a1aabf3d84c29ee2fa11b1748bf0b71e38438ca9c656",
+      "bytes": 63313327,
+      "fields": [
+        "PGM_SYS_ID",
+        "STATE",
+        "EPA_REGION",
+        "AIR_POLLUTANT_CLASS_CODE",
+        "AIR_OPERATING_STATUS_CODE"
+      ],
+      "source_rows": 280423,
+      "projection_fields": [
+        "STATE",
+        "EPA_REGION",
+        "AIR_POLLUTANT_CLASS_CODE",
+        "AIR_OPERATING_STATUS_CODE",
+        "PGM_SYS_ID_KEY",
+        "source_row"
+      ]
+    },
+    "evaluations": {
+      "member": "ICIS-AIR_FCES_PCES.csv",
+      "member_sha256": "cd68a5991e4cc4d14bfd6746f2524c813e84b11915d8708fe35aea5811269e23",
+      "bytes": 224155361,
+      "fields": [
+        "PGM_SYS_ID",
+        "ACTIVITY_ID",
+        "STATE_EPA_FLAG",
+        "COMP_MONITOR_TYPE_CODE",
+        "ACTUAL_END_DATE"
+      ],
+      "source_rows": 1824426,
+      "projection_fields": [
+        "STATE_EPA_FLAG",
+        "COMP_MONITOR_TYPE_CODE",
+        "ACTUAL_END_DATE",
+        "PGM_SYS_ID_KEY",
+        "ACTIVITY_ID_KEY",
+        "source_row"
+      ]
+    },
+    "stack_tests": {
+      "member": "ICIS-AIR_STACK_TESTS.csv",
+      "member_sha256": "f093a5defb753cd186261058502575fc9fac8c1ea7c4e783d14ee7fb8d49eda4",
+      "bytes": 64485754,
+      "fields": [
+        "PGM_SYS_ID",
+        "ACTIVITY_ID",
+        "STATE_EPA_FLAG",
+        "COMP_MONITOR_TYPE_CODE",
+        "ACTUAL_END_DATE",
+        "AIR_STACK_TEST_STATUS_CODE"
+      ],
+      "source_rows": 658331,
+      "projection_fields": [
+        "STATE_EPA_FLAG",
+        "COMP_MONITOR_TYPE_CODE",
+        "ACTUAL_END_DATE",
+        "AIR_STACK_TEST_STATUS_CODE",
+        "PGM_SYS_ID_KEY",
+        "ACTIVITY_ID_KEY",
+        "source_row"
+      ]
+    }
+  },
+  "snapshot": "Current source; historical event dates do not establish original publication vintages",
+  "rights": "Minimal attributed factual fields; raw archive and identity mapping excluded; see DATA_RIGHTS.md",
+  "unsharded_projection_sha256": "bc81dabbda4cbce1335793bb1dace052b5e49fa36cba8eeaa625a24331b68cda",
+  "unsharded_uncompressed_sha256": "84080ae6adcfbca5b8dd3ac4b0b92a4f424e8d44c922cbe617360d569fe35c5b",
+  "projection_packaging": "Fixed 100000-row JSON gzip shards, per table and source order, to keep every Git object below 100 MB. Same selected cells; no scientific change.",
+  "shards": [
+    {
+      "table": "facilities",
+      "file": "data/facilities-001.json.gz",
+      "first_source_row": 1,
+      "rows": 100000,
+      "bytes": 4398270,
+      "sha256": "b5ec01f472f937a62423d15633c22e094a323b115dd0329be5e8a478a72b3aac"
+    },
+    {
+      "table": "facilities",
+      "file": "data/facilities-002.json.gz",
+      "first_source_row": 100001,
+      "rows": 100000,
+      "bytes": 4404153,
+      "sha256": "44134e3570a088cfc72bb72708f62c50aaf7b0b6da1c8c66ba1d172165edeb4c"
+    },
+    {
+      "table": "facilities",
+      "file": "data/facilities-003.json.gz",
+      "first_source_row": 200001,
+      "rows": 80423,
+      "bytes": 3537331,
+      "sha256": "a57043ad2237b180bff0ee2a673dc290a32d1a11b9019513a88a5bbdf1a1873c"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-001.json.gz",
+      "first_source_row": 1,
+      "rows": 100000,
+      "bytes": 5190313,
+      "sha256": "d0d7d7247ab7a79248a454d9a5e40992881badb4791f7a5a1c3dbb92c8420dc5"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-002.json.gz",
+      "first_source_row": 100001,
+      "rows": 100000,
+      "bytes": 5646683,
+      "sha256": "7cfc2bf7cffc7456c6100b046c08e80c41860f699724179265811fec8b7372f7"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-003.json.gz",
+      "first_source_row": 200001,
+      "rows": 100000,
+      "bytes": 5388660,
+      "sha256": "56c085326fe8462c9410705a749396b613ba829bc87db9f4e559de0087c8ed41"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-004.json.gz",
+      "first_source_row": 300001,
+      "rows": 100000,
+      "bytes": 6021314,
+      "sha256": "9becd61cd92d312757d0a5ba071eaa23cae222441cea464783414da24c8de9f8"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-005.json.gz",
+      "first_source_row": 400001,
+      "rows": 100000,
+      "bytes": 5984493,
+      "sha256": "5c4d1b7e49534cf070a8cb9e3b0485b0eb63572f104d4eeb1e62ed6285b57baa"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-006.json.gz",
+      "first_source_row": 500001,
+      "rows": 100000,
+      "bytes": 5648115,
+      "sha256": "91a2508ff5b0d7dc8b7affb4b6dca3aafd6eadd6968278e04571933052297b48"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-007.json.gz",
+      "first_source_row": 600001,
+      "rows": 100000,
+      "bytes": 6053578,
+      "sha256": "1d33cdd39ce258bbfe63d41b372da52ca00d55b92734c6a14f0ab181f43299ae"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-008.json.gz",
+      "first_source_row": 700001,
+      "rows": 100000,
+      "bytes": 6038595,
+      "sha256": "8466b1c2950133e11d4735e494aae644512508cdf9f20566e363e38500381856"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-009.json.gz",
+      "first_source_row": 800001,
+      "rows": 100000,
+      "bytes": 5563547,
+      "sha256": "d8aa693337af45bee837adf1aa1625bd94605f8492251d3b3d96d8fcee7607c8"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-010.json.gz",
+      "first_source_row": 900001,
+      "rows": 100000,
+      "bytes": 5648298,
+      "sha256": "8b8a92a406a5e8109f4ffca33525953fa16485f0a4248b2bec39263ef55046f1"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-011.json.gz",
+      "first_source_row": 1000001,
+      "rows": 100000,
+      "bytes": 6653216,
+      "sha256": "30c4e01a8274d6cfb60a4cc9c29fc5118349d4db3786dda519952d1a4892afd6"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-012.json.gz",
+      "first_source_row": 1100001,
+      "rows": 100000,
+      "bytes": 8858682,
+      "sha256": "a42135872f39595e60a36a8290ec5715d353bb4ab6855fcfed7383505fe807b7"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-013.json.gz",
+      "first_source_row": 1200001,
+      "rows": 100000,
+      "bytes": 8860255,
+      "sha256": "3eba1e6f4c6836b02ad5bcc5d8b8be84a82de2124db27811982a1f7a14cfe76c"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-014.json.gz",
+      "first_source_row": 1300001,
+      "rows": 100000,
+      "bytes": 8861134,
+      "sha256": "26feb1049aa4ba43b013cf2b463db2fa43e3e44041dd03c37a877701b766b12d"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-015.json.gz",
+      "first_source_row": 1400001,
+      "rows": 100000,
+      "bytes": 8859128,
+      "sha256": "6fb0f85256a090d758146afac0856e0285f3d7829f925575c35a82a1a4e6f87d"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-016.json.gz",
+      "first_source_row": 1500001,
+      "rows": 100000,
+      "bytes": 8859435,
+      "sha256": "508f2309c88164c3489d83ef8fbff3da6d53904ba897c63c2839c7a106c73c92"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-017.json.gz",
+      "first_source_row": 1600001,
+      "rows": 100000,
+      "bytes": 8860069,
+      "sha256": "528bed8274b53d9cc726bfa7eb8a374b9dce85b0796f50d550789cefdf1a3a04"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-018.json.gz",
+      "first_source_row": 1700001,
+      "rows": 100000,
+      "bytes": 8859351,
+      "sha256": "d00a34bd7f306d9c66c5bd68fbfdc9762312a1e2f8a1be3ffdeeaccfd37bb022"
+    },
+    {
+      "table": "evaluations",
+      "file": "data/evaluations-019.json.gz",
+      "first_source_row": 1800001,
+      "rows": 24426,
+      "bytes": 2164366,
+      "sha256": "0af1551cf9b684e5dbcf178cf3263363f854ff80a0420a70a317ac91f3079855"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-001.json.gz",
+      "first_source_row": 1,
+      "rows": 100000,
+      "bytes": 7432327,
+      "sha256": "34a6513173415dab1e2407c021866efdf27a69a83e4abb737d5e42496c97c004"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-002.json.gz",
+      "first_source_row": 100001,
+      "rows": 100000,
+      "bytes": 7569530,
+      "sha256": "21773f2a916e04cc782b922d9a682332351a0a26e0b6e26280ad49de24911da5"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-003.json.gz",
+      "first_source_row": 200001,
+      "rows": 100000,
+      "bytes": 7460571,
+      "sha256": "aaf24b9d92e04db7cba5be08924978a95555838e5975a1d7c053eddd641c2fa2"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-004.json.gz",
+      "first_source_row": 300001,
+      "rows": 100000,
+      "bytes": 7549814,
+      "sha256": "406fdc6ff4d141337734abf7b25ff3205506bfdd063bf441aff9910f2202d07c"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-005.json.gz",
+      "first_source_row": 400001,
+      "rows": 100000,
+      "bytes": 7522673,
+      "sha256": "2186a6ccb8f121b3940a191505935009cdb3eb8a97eef0ff8bf8f7c4b82339bb"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-006.json.gz",
+      "first_source_row": 500001,
+      "rows": 100000,
+      "bytes": 7492861,
+      "sha256": "b791e41ff90c311ff98b7863448c75fc4594c5f67e52b0154a083016e7ea8321"
+    },
+    {
+      "table": "stack_tests",
+      "file": "data/stack_tests-007.json.gz",
+      "first_source_row": 600001,
+      "rows": 58331,
+      "bytes": 4440520,
+      "sha256": "180c321a4e4d2518704dbdff6e4cc39b37c3d61e7857703d6c8fab8d53e4303e"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 351,
+  "source_values": 38,
+  "svg_coordinates": 304,
+  "hashes": 9,
+  "scope": "Source values,actual rendered bar geometry and exact hashes;not completeness,compliance or risk validation"
+}

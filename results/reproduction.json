@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "exact_csv_fields": 17622640,
+  "json_documents": 1,
+  "tests": 17,
+  "original_files_unchanged": true,
+  "network_during_replay": false,
+  "scope": "Exact descriptive replay; finite tests do not establish complete coverage or valid enforcement outcomes"
+}
