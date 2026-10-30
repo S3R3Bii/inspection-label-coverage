@@ -1,0 +1,162 @@
+{
+  "timestamp_utc": "2026-10-30T16:06:41.417723+00:00",
+  "version": "Canonical file hashes; remote release pending",
+  "file_sha256": {
+    ".gitattributes": "a8461cd7960959aa7264bfc16744008db96c014da777e24dff855b13100e53b1",
+    ".gitignore": "60df6be84bf52e59d66a0a2a46d4e1b963349c50e2b2648e7b41280d3c3bd82e",
+    "DATA_RIGHTS.md": "5e784d920f2eac234aae873b46a66957b8c8b853f6bc9931d3ef08a56607b806",
+    "LICENSE": "1810ffd0f9ec2e70b051ff6340544087d0dd7b522237d7207e98424373928a41",
+    "PROTOCOL.md": "6baa075ecd127de2590d2e10372ad41cec21072abb2b0f3010a96da5efd68da0",
+    "README.md": "3837b804bec61a7b902188dccfb2ec88ee53959106cc8719a4c22115352322d0",
+    "requirements.txt": "b1df127986036afe3759b4135cb12c463790b95d32e6a09f4341a02bc12919b4",
+    ".github/workflows/reproduce.yml": "f02826f252af693cc489de33a2aee855e6c1159f8895ed2b9e90083edb055073",
+    "data/evaluations-001.json.gz": "d0d7d7247ab7a79248a454d9a5e40992881badb4791f7a5a1c3dbb92c8420dc5",
+    "data/evaluations-002.json.gz": "7cfc2bf7cffc7456c6100b046c08e80c41860f699724179265811fec8b7372f7",
+    "data/evaluations-003.json.gz": "56c085326fe8462c9410705a749396b613ba829bc87db9f4e559de0087c8ed41",
+    "data/evaluations-004.json.gz": "9becd61cd92d312757d0a5ba071eaa23cae222441cea464783414da24c8de9f8",
+    "data/evaluations-005.json.gz": "5c4d1b7e49534cf070a8cb9e3b0485b0eb63572f104d4eeb1e62ed6285b57baa",
+    "data/evaluations-006.json.gz": "91a2508ff5b0d7dc8b7affb4b6dca3aafd6eadd6968278e04571933052297b48",
+    "data/evaluations-007.json.gz": "1d33cdd39ce258bbfe63d41b372da52ca00d55b92734c6a14f0ab181f43299ae",
+    "data/evaluations-008.json.gz": "8466b1c2950133e11d4735e494aae644512508cdf9f20566e363e38500381856",
+    "data/evaluations-009.json.gz": "d8aa693337af45bee837adf1aa1625bd94605f8492251d3b3d96d8fcee7607c8",
+    "data/evaluations-010.json.gz": "8b8a92a406a5e8109f4ffca33525953fa16485f0a4248b2bec39263ef55046f1",
+    "data/evaluations-011.json.gz": "30c4e01a8274d6cfb60a4cc9c29fc5118349d4db3786dda519952d1a4892afd6",
+    "data/evaluations-012.json.gz": "a42135872f39595e60a36a8290ec5715d353bb4ab6855fcfed7383505fe807b7",
+    "data/evaluations-013.json.gz": "3eba1e6f4c6836b02ad5bcc5d8b8be84a82de2124db27811982a1f7a14cfe76c",
+    "data/evaluations-014.json.gz": "26feb1049aa4ba43b013cf2b463db2fa43e3e44041dd03c37a877701b766b12d",
+    "data/evaluations-015.json.gz": "6fb0f85256a090d758146afac0856e0285f3d7829f925575c35a82a1a4e6f87d",
+    "data/evaluations-016.json.gz": "508f2309c88164c3489d83ef8fbff3da6d53904ba897c63c2839c7a106c73c92",
+    "data/evaluations-017.json.gz": "528bed8274b53d9cc726bfa7eb8a374b9dce85b0796f50d550789cefdf1a3a04",
+    "data/evaluations-018.json.gz": "d00a34bd7f306d9c66c5bd68fbfdc9762312a1e2f8a1be3ffdeeaccfd37bb022",
+    "data/evaluations-019.json.gz": "0af1551cf9b684e5dbcf178cf3263363f854ff80a0420a70a317ac91f3079855",
+    "data/facilities-001.json.gz": "b5ec01f472f937a62423d15633c22e094a323b115dd0329be5e8a478a72b3aac",
+    "data/facilities-002.json.gz": "44134e3570a088cfc72bb72708f62c50aaf7b0b6da1c8c66ba1d172165edeb4c",
+    "data/facilities-003.json.gz": "a57043ad2237b180bff0ee2a673dc290a32d1a11b9019513a88a5bbdf1a1873c",
+    "data/source_manifest.json": "41d3ea7e5f11c035b21174917272bd6ea1fa70d43738d56e099dd46ca5ad3c0e",
+    "data/source_verification.json": "1c6118b8ca9f82b03a2cb1eb9a3b06bd7a96b19b3ec8aba4e6f9474d58b042a4",
+    "data/stack_tests-001.json.gz": "34a6513173415dab1e2407c021866efdf27a69a83e4abb737d5e42496c97c004",
+    "data/stack_tests-002.json.gz": "21773f2a916e04cc782b922d9a682332351a0a26e0b6e26280ad49de24911da5",
+    "data/stack_tests-003.json.gz": "aaf24b9d92e04db7cba5be08924978a95555838e5975a1d7c053eddd641c2fa2",
+    "data/stack_tests-004.json.gz": "406fdc6ff4d141337734abf7b25ff3205506bfdd063bf441aff9910f2202d07c",
+    "data/stack_tests-005.json.gz": "2186a6ccb8f121b3940a191505935009cdb3eb8a97eef0ff8bf8f7c4b82339bb",
+    "data/stack_tests-006.json.gz": "b791e41ff90c311ff98b7863448c75fc4594c5f67e52b0154a083016e7ea8321",
+    "data/stack_tests-007.json.gz": "180c321a4e4d2518704dbdff6e4cc39b37c3d61e7857703d6c8fab8d53e4303e",
+    "figures/annual_coverage.pdf": "cb8bca030f91cd025e893912f8b274e3a6a140cbe5edbc3269c4c21797d0ae77",
+    "figures/annual_coverage.png": "8e258968822164d39c2f985fa8703c5eb0fb8affe65c5fffdd8e524e58218952",
+    "figures/annual_coverage.svg": "a3d73479ce91d7e06592262e37b2cc1a97f2800d89d8205250f227a4b3d2f81e",
+    "figures/artist_geometry.json": "c465a09b8a68a0dc6e18be58777eb032e5d1740e512c2ea77d55b5a02a6b982a",
+    "figures/class_coverage.pdf": "150f85a7f24806b72d18e1c8656cbfa258e71cf8954419e2c975bf70802f97dc",
+    "figures/class_coverage.png": "c1e8cc0cb87a21c13d7dfee9efa1ff60dc2249c5a506fcaaabf002c9627ad683",
+    "figures/class_coverage.svg": "155403715fa4f5b0fcf1be8d4ddb08c334d663751bb7abd4071d0faaabe30055",
+    "figures/manifest.json": "fea3ff39822e7a7211e6c70669e3a61c70403628b8bbf44feaaed426bdce8b07",
+    "figures/recorded_coverage.pdf": "0f3da4be7e186f7aaa46412f7dac8c9094baa641b22efc333977abc66c876abf",
+    "figures/recorded_coverage.png": "278770efd20fef57ff7c24807673640cf0a6056c4658f46f9b7ac34e6be5741c",
+    "figures/recorded_coverage.svg": "cdd0c92b6928071011f7235e5bfb16e1a01183cc487de0dcfbfba3d8cd9b26bf",
+    "paper/main.tex": "85c61794078a9998f4cb866320015a02decdd87199c4765d2b8728caa2ed2b4d",
+    "paper/manuscript.pdf": "6eb0e8190e3439491238e088ec71021ef591a6032481d0fbb25ad9801eb7a591",
+    "paper/PUBLICATION_SCOPE.json": "fedf266fa7e2bc66f24c63192c0b19bb10d26686709052500d67d3e797028707",
+    "paper/TABLE_VALUES.json": "e2e8a70b10049dd60706b9e40b446b4bc072b68b57abee8c770497b49a11398c",
+    "paper/images/annual_coverage.pdf": "cb8bca030f91cd025e893912f8b274e3a6a140cbe5edbc3269c4c21797d0ae77",
+    "paper/images/class_coverage.pdf": "150f85a7f24806b72d18e1c8656cbfa258e71cf8954419e2c975bf70802f97dc",
+    "paper/images/recorded_coverage.pdf": "0f3da4be7e186f7aaa46412f7dac8c9094baa641b22efc333977abc66c876abf",
+    "results/data_review_groups.csv": "a547768454ef171dda5acb7f21b0d575981d1437adcba979014a037901bbc8fa",
+    "results/facility_windows.csv.gz": "0cf24e258279b9c7b294a6b94bd563897fe0f57d10af8a241dfa01070dccd61d",
+    "results/figure_verification.json": "602ab4b27ecd5376e949d1a1e6cb9cec3e25d905fbe82639d73fe0aab01ee47c",
+    "results/group_counts.csv": "bb928e80d45dd3a3f91e0e72f1c5a47057ee4bc68a463c5d874368bdd02c53d9",
+    "results/independent_verification.json": "f085485b9f1a50a3de864ba68645452c6c6b0565f9171cf43de407cb4830fdd2",
+    "results/paper_verification.json": "995414cf08785c5779d5deb1709c6c6903c471d39908be2edf5c6c52f36a1dcd",
+    "results/reproduction.json": "0142a4874dba3aa718cd59a5d2f476b070f0ecb7056ca2781858b9d28ef66a08",
+    "results/source_audit.json": "0f3cb584d6316d329d5751897cecbd822ecfa8148bf3d418a42d1d6711b30371",
+    "src/capture_source.py": "ae7e8614ce1767ab943396fe465ba2d0d0581374cdb34b919e26e5a02c30fe31",
+    "src/make_figures.py": "898bd982a588447e4b2b19a86c49191f7f4865eb2689f4fcf07331d299d99ab0",
+    "src/reproduce.py": "44cc0fda39815c8c86a1c8002fceb36e2678ce81e1ef653fdbe9103ab1ceaab0",
+    "src/run_analysis.py": "62f873191a6b7ec7d648d4c5a16b9860f037ab6dedd934334ac56eabc098b0c7",
+    "src/verify_canonical_git.py": "2f6a170317d1fae7038e43d81aa1212867433604cd5ce9ab8d7a2ac28bf2fd72",
+    "src/verify_figures.py": "44fd1ebcba107cdbbc57d4cd7dba5d67ba757d802cd7369e980d9cdd0a7856cd",
+    "src/verify_paper.py": "450289a7a2647908674345cc1393f02813fd458698cb116d78fcef2a9dec647e",
+    "src/verify_results.py": "a660897685c3d86c3640036e968b34e7c259f7fc7578d5f2dc95c7b78e856139",
+    "src/verify_source.py": "f5674b4590e6b8ab12c9d0b7a45f7c87026bce403e0d05ac75aa5d5fa127a06b",
+    "tests/test_coverage.py": "ad5abc05895ec6d7bd2e0df9258c263ab24897cbb0a771297625f44408cb8f51"
+  },
+  "status": "LOCAL_SCOPED_GATES_PASS_REMOTE_RELEASE_PENDING",
+  "criteria": {
+    "practical_value": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "README and paper explain the label-quality decision immediately: 13613 of 183500 current sources have a recorded PSS/FAI result during 2021-2025. Full state/class list supports source reconciliation; no named enforcement ranking, risk model or measured benefit claim."
+    },
+    "source_and_rights": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Protocol c0595a6922ddd36248bff499c5b75eb59bbedc96 predates one official 69872864-byte bulk retrieval. 280423 facility,1824426 evaluation and658331 stack-test rows. Current Pandas source checker passes39720857 assertions against private ZIP. Minimal codes/dates and full hashes public; original archive and identity mappings private. No blanket CC0 claim or formal-publication material."
+    },
+    "scope_and_denominators": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "All five years and combined window use the same current operating cohort; current status is not presented as historical eligibility. Full on-site,any on-site,off-site-only,unknown-code and absent records remain distinct. Required-test universe and observation mechanism remain unknown outside the descriptive claim. No learned model,parameter tuning,propensity correction,protected forecast test or probability claims."
+    },
+    "independent_math_and_replay": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "Separate SQLite reconstruction freshly passes1106 assertions,all1101000 facility-window rows and17616000 observation fields,all354groups and every source exclusion/identity diagnostic. Offline replay matches17622640CSV fields and1JSON document,reruns17finite fixtures,no network,originals unchanged. Date-delimiter failure preserved; corrected retrospective qualification explicit."
+    },
+    "presentation_and_paper": {
+      "state": "PASS",
+      "grade": 4,
+      "evidence": "All3original figures and6final rendered manuscript pages inspected.351figure checks cover38source values,304SVGcoordinates and9hashes.219paper checks rebuild81display values on their actual PDF pages,qualifications,5approved hashes and bounded actions. Final compile has no layout/glyph warnings. ManuscriptSHA6eb0e8190e3439491238e088ec71021ef591a6032481d0fbb25ad9801eb7a591. No accessibility-conformance claim."
+    },
+    "privacy_and_canonical_git": {
+      "state": "PENDING",
+      "evidence": "Require current staged bounded publication audit and exact canonical Git-blob proof."
+    },
+    "exact_head_remote_release": {
+      "state": "PENDING",
+      "evidence": "Require exact candidate/main Linux success,matching tested/merged tree,remote annotated tag and synchronized public metadata."
+    }
+  },
+  "corrections": [
+    {
+      "defect": "Initial single gzip projection exceeded100MB file packaging limit",
+      "repair": "29fixed100000-row shards preserve every selected cell; original unsharded projection private",
+      "scientific_change": false
+    },
+    {
+      "defect": "Dictionary slash-date parser rejected dashed evaluation dates",
+      "repair": "Equivalent strict month-day-four-digit-year dash form added; cohort,windows and code groups unchanged. Failed output/code archived privately. All counts freshly rebuilt and independently checked.",
+      "scientific_change": true,
+      "claim": "Corrected retrospective descriptive audit; no untouched predictive test claim"
+    },
+    {
+      "defect": "Synthetic integration fixture left an open file warning",
+      "repair": "Use a context manager and suppress synthetic-only report output; all17fixtures freshly pass",
+      "scientific_change": false
+    },
+    {
+      "defect": "Private verifier performed repeated Pandas row conversions per cell",
+      "repair": "Cache independent parsed chunk records; all39720857source assertions freshly pass",
+      "scientific_change": false
+    },
+    {
+      "defect": "PDF line-wrap normalization removed genuine compound-word hyphen",
+      "repair": "Normalize in-word hyphens consistently in text-only phrase comparison; same artifact and exact numeric checks, no tolerance relaxation. Failed checker retained privately.",
+      "scientific_change": false
+    }
+  ],
+  "budget": {
+    "rounds_used": 3,
+    "round_limit": 3,
+    "active_review_minutes_limit": 45,
+    "review_tool_calls_limit": 60,
+    "review_tool_call_total": null,
+    "elapsed_wall_minutes_including_execution": 16.773628716666668,
+    "accounting": "Review-specific calls were not completely instrumented across context continuation; no invented count. Three substantive rounds complete. Wall time includes capture,implementation and execution and is a workload proxy,not quota or billing."
+  },
+  "unknowns": [
+    "Required-test universe and comparable inspection outcomes",
+    "Actual events missing from national records and observation-selection mechanism",
+    "Historical operating populations and original publication vintages",
+    "Risk-model validity,calibration and operational benefit",
+    "Production deployment,adoption and accessibility conformance"
+  ],
+  "stop_reason": "Scoped current-version local checks pass. No further tuning or cosmetic rounds; complete mandatory privacy,canonical and remote release evidence."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "assertions": 1106,
+  "facility_window_rows": 1101000,
+  "exact_observation_fields": 17616000,
+  "group_rows": 354,
+  "independence": "Separate SQLite identity/cohort/date/event joins and group aggregation; no analysis helper imports",
+  "limits": "Descriptive current-cohort coverage; not complete national inspections,required-test universe or risk-label validity"
+}

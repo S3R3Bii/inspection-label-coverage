@@ -1,0 +1,800 @@
+[
+  {
+    "kind": "source",
+    "table": "facilities",
+    "display": "280,423",
+    "page": 2
+  },
+  {
+    "kind": "source",
+    "table": "evaluations",
+    "display": "1,824,426",
+    "page": 2
+  },
+  {
+    "kind": "source",
+    "table": "stack_tests",
+    "display": "658,331",
+    "page": 2
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "<MISSING>",
+    "field": "facilities",
+    "percent": false,
+    "display": "3,760",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "<MISSING>",
+    "field": "full_on",
+    "percent": false,
+    "display": "276",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "<MISSING>",
+    "field": "any_on",
+    "percent": false,
+    "display": "343",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "<MISSING>",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "34",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MAJ",
+    "field": "facilities",
+    "percent": false,
+    "display": "13,548",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MAJ",
+    "field": "full_on",
+    "percent": false,
+    "display": "11,311",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MAJ",
+    "field": "any_on",
+    "percent": false,
+    "display": "11,382",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MAJ",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "5,754",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MIN",
+    "field": "facilities",
+    "percent": false,
+    "display": "135,345",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MIN",
+    "field": "full_on",
+    "percent": false,
+    "display": "9,648",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MIN",
+    "field": "any_on",
+    "percent": false,
+    "display": "13,544",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "MIN",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "2,995",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "NAP",
+    "field": "facilities",
+    "percent": false,
+    "display": "1,144",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "NAP",
+    "field": "full_on",
+    "percent": false,
+    "display": "9",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "NAP",
+    "field": "any_on",
+    "percent": false,
+    "display": "20",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "NAP",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "6",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "OTH",
+    "field": "facilities",
+    "percent": false,
+    "display": "1,079",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "OTH",
+    "field": "full_on",
+    "percent": false,
+    "display": "94",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "OTH",
+    "field": "any_on",
+    "percent": false,
+    "display": "109",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "OTH",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "38",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "SMI",
+    "field": "facilities",
+    "percent": false,
+    "display": "27,060",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "SMI",
+    "field": "full_on",
+    "percent": false,
+    "display": "15,008",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "SMI",
+    "field": "any_on",
+    "percent": false,
+    "display": "15,607",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "SMI",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "4,777",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "UNK",
+    "field": "facilities",
+    "percent": false,
+    "display": "1,564",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "UNK",
+    "field": "full_on",
+    "percent": false,
+    "display": "30",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "UNK",
+    "field": "any_on",
+    "percent": false,
+    "display": "54",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "class",
+    "level": "UNK",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "9",
+    "page": 3
+  },
+  {
+    "kind": "group",
+    "window": "2021",
+    "group": "all",
+    "level": "ALL",
+    "field": "full_on",
+    "percent": false,
+    "display": "12,510",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021",
+    "group": "all",
+    "level": "ALL",
+    "field": "any_on",
+    "percent": false,
+    "display": "14,712",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021",
+    "group": "all",
+    "level": "ALL",
+    "field": "off_only",
+    "percent": false,
+    "display": "6,772",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021",
+    "group": "all",
+    "level": "ALL",
+    "field": "no_evaluation",
+    "percent": false,
+    "display": "162,013",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021",
+    "group": "all",
+    "level": "ALL",
+    "field": "unknown_eval_only",
+    "percent": false,
+    "display": "3",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "5,806",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2022",
+    "group": "all",
+    "level": "ALL",
+    "field": "full_on",
+    "percent": false,
+    "display": "14,156",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2022",
+    "group": "all",
+    "level": "ALL",
+    "field": "any_on",
+    "percent": false,
+    "display": "16,363",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2022",
+    "group": "all",
+    "level": "ALL",
+    "field": "off_only",
+    "percent": false,
+    "display": "5,211",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2022",
+    "group": "all",
+    "level": "ALL",
+    "field": "no_evaluation",
+    "percent": false,
+    "display": "161,924",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2022",
+    "group": "all",
+    "level": "ALL",
+    "field": "unknown_eval_only",
+    "percent": false,
+    "display": "2",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2022",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "5,830",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2023",
+    "group": "all",
+    "level": "ALL",
+    "field": "full_on",
+    "percent": false,
+    "display": "14,485",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2023",
+    "group": "all",
+    "level": "ALL",
+    "field": "any_on",
+    "percent": false,
+    "display": "16,776",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2023",
+    "group": "all",
+    "level": "ALL",
+    "field": "off_only",
+    "percent": false,
+    "display": "4,543",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2023",
+    "group": "all",
+    "level": "ALL",
+    "field": "no_evaluation",
+    "percent": false,
+    "display": "162,177",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2023",
+    "group": "all",
+    "level": "ALL",
+    "field": "unknown_eval_only",
+    "percent": false,
+    "display": "4",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2023",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "6,013",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2024",
+    "group": "all",
+    "level": "ALL",
+    "field": "full_on",
+    "percent": false,
+    "display": "15,053",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2024",
+    "group": "all",
+    "level": "ALL",
+    "field": "any_on",
+    "percent": false,
+    "display": "17,602",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2024",
+    "group": "all",
+    "level": "ALL",
+    "field": "off_only",
+    "percent": false,
+    "display": "3,715",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2024",
+    "group": "all",
+    "level": "ALL",
+    "field": "no_evaluation",
+    "percent": false,
+    "display": "162,180",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2024",
+    "group": "all",
+    "level": "ALL",
+    "field": "unknown_eval_only",
+    "percent": false,
+    "display": "3",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2024",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "6,258",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "full_on",
+    "percent": false,
+    "display": "15,258",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "any_on",
+    "percent": false,
+    "display": "17,600",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "off_only",
+    "percent": false,
+    "display": "3,777",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "no_evaluation",
+    "percent": false,
+    "display": "162,120",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "unknown_eval_only",
+    "percent": false,
+    "display": "3",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "6,228",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_none",
+    "percent": false,
+    "display": "169,698",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_none",
+    "percent": true,
+    "display": "92.5",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_fail_any",
+    "percent": false,
+    "display": "1,435",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_fail_any",
+    "percent": true,
+    "display": "0.8",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_pass_only",
+    "percent": false,
+    "display": "11,570",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_pass_only",
+    "percent": true,
+    "display": "6.3",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_pass_unresolved",
+    "percent": false,
+    "display": "608",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_pass_unresolved",
+    "percent": true,
+    "display": "0.3",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_unresolved_only",
+    "percent": false,
+    "display": "189",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_unresolved_only",
+    "percent": true,
+    "display": "0.1",
+    "page": 5
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "facilities",
+    "percent": false,
+    "display": "183,500",
+    "page": 1
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": false,
+    "display": "13,613",
+    "page": 1
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_observed_result",
+    "percent": true,
+    "display": "7.4",
+    "page": 1
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_none",
+    "percent": false,
+    "display": "169,698",
+    "page": 1
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "facilities",
+    "percent": false,
+    "display": "183,500",
+    "page": 2
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "facilities",
+    "percent": false,
+    "display": "183,500",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "any_on",
+    "percent": false,
+    "display": "41,059",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "off_only",
+    "percent": false,
+    "display": "4,562",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "no_evaluation",
+    "percent": false,
+    "display": "137,879",
+    "page": 4
+  },
+  {
+    "kind": "group",
+    "window": "2021-2025",
+    "group": "all",
+    "level": "ALL",
+    "field": "stack_mixed_pass_fail",
+    "percent": false,
+    "display": "1,213",
+    "page": 5
+  }
+]
