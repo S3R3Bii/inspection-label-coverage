@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "mode": "PRIVATE_ORIGINALS_INDEPENDENT_PANDAS_PASS",
+  "checks": 39720857,
+  "table_rows": {
+    "facilities": 280423,
+    "evaluations": 1824426,
+    "stack_tests": 658331
+  },
+  "limits": "Current snapshot; no historical publication vintages or independent engineering/compliance labels"
+}
